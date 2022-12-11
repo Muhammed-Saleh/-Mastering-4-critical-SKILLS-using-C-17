@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    
+
 	int T;
 	cin >> T;
 
@@ -10,10 +10,10 @@ int main() {
 		int N;
 		cin >> N;
 
-		int result = 1;
 		int sum = 0;
 
 		for (int j = 0; j < N; j++) {
+		    int result = 1;
 			int value;
 			cin >> value;
 
@@ -22,7 +22,6 @@ int main() {
 			}
 
 			sum += result;
-			result = 1;
 		}
 
 		cout << sum << '\n';
